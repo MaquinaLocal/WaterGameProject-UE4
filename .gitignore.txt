@@ -1,9 +1,27 @@
-.vs/*
-.idea/*
-.git/*
-.sln/*
-Build/*
-DerivedDataCache/*
-Intermediate/*
-Plugins/*/Intermediate/*
-Saved/*
+# Unreal Engine specific
+*.sdf
+*.sln
+*.suo
+*.xcworkspace
+*.xcuserstate
+
+# Compiled binary files
+Binaries/
+Intermediate/
+
+# Build files
+DerivedDataCache/
+
+# Logs
+Logs/
+
+# Temporary files
+Saved/
+
+# Compiled .dll and .pdb files
+!Intermediate/Build/Win64/UE4Editor/Development/TrainingCamp/*.pdb
+!Intermediate/Build/Win64/UE4Editor/Development/TrainingCamp/*.dll
+
+# Don't ignore .gitignore and .gitattributes files
+!.gitignore
+!.gitattributes
